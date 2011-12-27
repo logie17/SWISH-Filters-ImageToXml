@@ -6,19 +6,28 @@ use base 'SWISH::Filters::Base';
 
 =head1 NAME
 
-SWISH::Filters::ImageToXml
+SWISH::Filters::ImageToXml - A filter that converts an image to base64 and outputs XML
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
+
 =head1 SYNOPSIS
 
 A SWISHE filter that takes an incoming image and converts it to base64 and
 returns XML.
+
+=head2 XML
+
+The following is an example of the generated XML.
+
+    <doc>
+        <b64_data>...BASE 64 CONTENT...</b64_data>
+    </doc>
 
 =head1 METHODS
 

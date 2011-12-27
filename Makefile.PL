@@ -3,7 +3,6 @@ use inc::Module::Install;
 name     'SWISH-Filters-ImageToXml';
 all_from 'lib/SWISH/Filters/ImageToXml.pm';
 author   q{Logan Bell <loganbell@gmail.com>};
-abstract 'A filter that converts an image to base64 and outputs XML';
 license  'perl';
 
 requires 'SWISH::Filters'                   => 0;
