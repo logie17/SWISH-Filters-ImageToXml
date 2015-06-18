@@ -8,6 +8,8 @@ license  'perl';
 requires 'SWISH::Filter'                    => 0;
 requires 'MIME::Base64'                     => 0;
 test_requires 'Test::More';
+test_requires 'Test::MockObject';
+test_requires 'File::Slurp';
 
 repository 'git://github.com/logie17/SWISH-Filters-ImageToXml.git';
 
