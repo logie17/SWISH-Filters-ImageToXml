@@ -1,4 +1,4 @@
-use inc::Module::Install;
+use inc::Module::Install 1.05;
 
 name     'SWISH-Filters-ImageToXml';
 all_from 'lib/SWISH/Filters/ImageToXml.pm';
@@ -10,8 +10,6 @@ requires 'MIME::Base64'                     => 0;
 test_requires 'Test::More';
 
 repository 'git://github.com/logie17/SWISH-Filters-ImageToXml.git';
-
-auto_install;
 
 WriteAll;
 
