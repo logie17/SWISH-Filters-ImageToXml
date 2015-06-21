@@ -3,3 +3,6 @@ Revision history for SWISH-Filters-ImageToXml
 0.01    12/27/2011
         Initial Release
 
+0.02    06/21/2015
+        [Contributor: Chorny] makefile fixes
+
